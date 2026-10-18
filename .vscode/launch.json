@@ -1,0 +1,60 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: gcc.exe build active file",
+      "command": "gcc.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Компилятор: C:\\msys64\\ucrt64\\bin\\gcc.exe"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "(Windows) Запустить",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "Введите имя программы, например: ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "internalConsole"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Aleksandr/Documents/develop/programming_tasks_CI/leson_video/9_lesson_massiv",
+      "program": "c:/Users/Aleksandr/Documents/develop/programming_tasks_CI/leson_video/9_lesson_massiv/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
