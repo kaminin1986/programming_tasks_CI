@@ -44,8 +44,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Aleksandr/Documents/develop/programming_tasks_CI/leson_video/9_lesson_massiv",
-      "program": "c:/Users/Aleksandr/Documents/develop/programming_tasks_CI/leson_video/9_lesson_massiv/build/Debug/outDebug",
+      "cwd": "c:/Users/Aleksandr/Documents/develop/programming_tasks_CI/prosto_zadachi/ugadai_chislo",
+      "program": "c:/Users/Aleksandr/Documents/develop/programming_tasks_CI/prosto_zadachi/ugadai_chislo/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
